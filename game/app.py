@@ -1,6 +1,4 @@
 from flask import Flask, abort, redirect, url_for
-from attack import attacks1, attacks2
-from steal import steals1, steals2
 from random import randint
 import os
 import json
